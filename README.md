@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# 🚴‍♂️ TOUR SUDOKU - Edición Maillots 🚴‍♀️
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Tour Sudoku](https://caracoltv.brightspotcdn.com/dims4/default/f1a50ff/2147483647/strip/true/crop/1280x720+0+0/resize/1280x720!/format/webp/quality/75/?url=https%3A%2F%2Fcaracol-brightspot.s3.us-west-2.amazonaws.com%2Faa%2F81%2Fdb45353a42658de377ef4cbc2c68%2Ftamano-fotos-cms-2026-01-13t114614-606.png)
 
-## Available Scripts
+## 📋 Descripción
 
-In the project directory, you can run:
+**Tour Sudoku** es una versión temática del clásico juego de Sudoku, inspirada en el Tour de Francia. En lugar de números, utilizamos imágenes icónicas de la carrera ciclista más famosa del mundo:
 
-### `npm start`
+- 🟡 **Maillot Amarillo** - Líder general
+- 🟢 **Maillot Verde** - Puntos / Sprint  
+- 🔴 **Maillot de Lunares** - Montaña
+- ⚪ **Maillot Blanco** - Joven promesa
+- 🏆 **Trofeo** - Ganador final
+- 🚴 **Bicicleta** - La carrera
+- ⛰️ **Montaña** - Etapas de alta montaña
+- 🏁 **Bandera a Cuadros** - Llegada
+- 🇫🇷 **Francia** - El país anfitrión
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ✨ Características
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- ✅ **Sudoku funcional** con tablero 9x9
+- ✅ **Imágenes personalizadas** en lugar de números
+- ✅ **Temporizador** que inicia con el primer movimiento
+- ✅ **Contador de errores** para seguir tu precisión
+- ✅ **Celdas restantes** para ver tu progreso
+- ✅ **Marcado visual** de celdas correctas/incorrectas
+- ✅ **Modal de victoria** con imagen del trofeo animado
+- ✅ **Diseño responsive** para móviles y tablets
+- ✅ **Interfaz intuitiva** con leyenda de elementos
 
-### `npm test`
+## 🎮 Cómo jugar
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Las celdas con borde amarillo son las **pistas iniciales** (no se pueden modificar)
+2. Haz clic en las celdas vacías (con "?") para ingresar un elemento
+3. Puedes ingresar:
+   - El **número** del 1 al 9
+   - El **nombre** del elemento (ej: "amarillo", "trofeo")
+4. El temporizador comienza automáticamente con tu primer movimiento
+5. Las celdas correctas se marcan en **verde**, las incorrectas en **rojo**
+6. ¡Completa todo el tablero correctamente para ganar y ver el trofeo!
 
-### `npm run build`
+## 🛠️ Tecnologías utilizadas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **React** - Biblioteca principal
+- **Create React App** - Bootstrapping del proyecto
+- **CSS3** - Estilos y animaciones
+- **JavaScript ES6+** - Lógica del juego
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📦 Instalación
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+# Clonar el repositorio
+git clone https://github.com/Alejo9009/sudoku-tour.git
 
-### `npm run eject`
+# Entrar al directorio
+cd sudoku-tour
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Instalar dependencias
+npm install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Iniciar el servidor de desarrollo
+npm start
