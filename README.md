@@ -2,6 +2,9 @@
 
 ![Tour Sudoku](https://caracoltv.brightspotcdn.com/dims4/default/f1a50ff/2147483647/strip/true/crop/1280x720+0+0/resize/1280x720!/format/webp/quality/75/?url=https%3A%2F%2Fcaracol-brightspot.s3.us-west-2.amazonaws.com%2Faa%2F81%2Fdb45353a42658de377ef4cbc2c68%2Ftamano-fotos-cms-2026-01-13t114614-606.png)
 
+
+
+URL DEL PROYECTO : https://sudoku-tour.vercel.app/
 ## 📋 Descripción
 
 **Tour Sudoku** es una versión temática del clásico juego de Sudoku, inspirada en el Tour de Francia. En lugar de números, utilizamos imágenes icónicas de la carrera ciclista más famosa del mundo:
@@ -13,8 +16,8 @@
 - 🏆 **Trofeo** - Ganador final
 - 🚴 **Bicicleta** - La carrera
 - ⛰️ **Montaña** - Etapas de alta montaña
-- 🏁 **Bandera a Cuadros** - Llegada
-- 🇫🇷 **Francia** - El país anfitrión
+- 🏁 **Ultimo Campeon ** - Tadej Pogachar
+- 🇫🇷 **Logo del Tour** - El país anfitrión
 
 ## ✨ Características
 
