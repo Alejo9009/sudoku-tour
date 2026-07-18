@@ -49,17 +49,13 @@ URL DEL PROYECTO : https://sudoku-tour.vercel.app/
 - **CSS3** - Estilos y animaciones
 - **JavaScript ES6+** - Lógica del juego
 
-## 📦 Instalación
 
-```bash
-# Clonar el repositorio
-git clone https://github.com/Alejo9009/sudoku-tour.git
 
-# Entrar al directorio
-cd sudoku-tour
 
-# Instalar dependencias
-npm install
+Copyright (c) 2026 Alejandro Pirazán
 
-# Iniciar el servidor de desarrollo
-npm start
+Todos los derechos reservados.
+
+Este código y su contenido no pueden ser copiados, modificados,
+distribuidos ni utilizados, total o parcialmente, sin el permiso
+explícito y por escrito del autor.
